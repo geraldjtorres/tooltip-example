@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link type="text/css" href="./css/main.css" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+
+    <div>
+      <h1>Hello Nina!</h1>
+
+      <p>There is no plugin for this tooltip. It's just html, css and one line of jQuery. You just need to give the fonts the right font size and font family. Here is the example:</p>
+
+      <div class="copy">
+        <p>Travel Spend</p>
+        <p>Monthly</p>
+
+        <div class="custom-tooltip">
+          <div class="tooltip-box">
+            <p>Earn 2.5 Air Miles per AED</p>
+            <p>Earn on travel related purchases, including airlines, hotels and car rentals</p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="copy">
+        <p>Online Spend</p>
+        <p>Monthly</p>
+
+        <div class="custom-tooltip">
+          <div class="tooltip-box">
+            <p>Earn 2.5 Air Miles per AED</p>
+            <p>Earn on travel related purchases, including airlines, hotels and car rentals blah blah</p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+      <!-- JQuery V3 -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+
+    <script>
+
+    // tooltip funcationality
+    $('.custom-tooltip').hover(function () {
+        $('.tooltip-box', this).toggle();
+    });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.copy {
+  width: 100%;
+  max-width: 392px;
+  display: flex; }
+  .copy p:last-of-type {
+    margin-left: auto; }
+
+.custom-tooltip {
+  background: rgba(0, 0, 0, 0) url(../assets/images/tooltip-icon-grey.svg) no-repeat scroll center 15%/60% auto;
+  cursor: help;
+  height: auto;
+  width: 30px;
+  position: relative;
+  top: 0;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease; }
+  .custom-tooltip:hover {
+    background: rgba(0, 0, 0, 0) url(../assets/images/tooltip-icon-red.svg) no-repeat scroll center 15%/60% auto; }
+
+.tooltip-box {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 2px 6px 1px #cccccc;
+  display: none;
+  font-size: 13px;
+  left: -246px;
+  padding: 0;
+  position: absolute;
+  right: -50%;
+  top: 30px;
+  width: 274px;
+  z-index: 10; }
+  .tooltip-box p {
+    padding: 14px 20px;
+    margin: 0; }
+    .tooltip-box p:first-of-type {
+      background-color: white;
+      font-weight: bold; }
+    .tooltip-box p:last-of-type {
+      background-color: #FBFBFD; }
+  @media (max-width: 768px) {
+    .tooltip-box {
+      left: -243px;
+      top: 34px; } }
+
+/*# sourceMappingURL=main.css.map */
